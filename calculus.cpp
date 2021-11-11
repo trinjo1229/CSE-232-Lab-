@@ -51,7 +51,7 @@ while(true){
     diff = std::abs(x-trap);
     cout<<std::fixed<<std::setprecision(4);
     if(diff < tolerance){
-        cout<<"Trap count:"<<n<<", "<<"estimate:"<<trap<<", "<<"exact:"<<trap<<", "<<"tolerance:"<<tolerance<<endl;
+        cout<<"Trap count: "<<n<<", "<<"estimate:"<<trap<<", "<<"exact:"<<trap<<", "<<"tolerance:"<<tolerance<<endl;
         break;
     }
     else{
